@@ -1,24 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loop studio</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <!-- Hero section -->
-  <section id="hero">
-    <!-- Hero container -->
-    <div class="container max-w-6xl mx-auto px-6 py-12 md:px-0">
-      <div class="nav flex items-center justify-between font-bold text-white">
-        <!-- logo -->
-        <img src="images/logo.svg" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loop studio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Hero section -->
+    <section id="hero">
+      <!-- Hero container -->
+      <div class="container max-w-6xl mx-auto px-6 py-12">
+        <nav class="flex items-center justify-between font-bold text-white">
+          <!-- logo -->
+          <img src="images/logo.svg" alt="" />
+          <!-- menu -->
+          <div class="hidden h-10 font-alata md:flex md:space-x-8">
+            <div class="group">
+              <a href="#">About</a>
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-blue-50"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#">Careers</a>
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-blue-50"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#">Event</a>
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-blue-50"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#">Products</a>
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-blue-50"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#">Support</a>
+              <div
+                class="mx-2 group-hover:border-b group-hover:border-blue-50"
+              ></div>
+            </div>
+          </div>
+          <!-- @todo hamburger button -->
+        </nav>
+        <!-- @todo mobile menu -->
+        <div
+          class="max-w-lg my-32 p-4 font-sans uppercase border-2 text-white text-4xl md:text-6xl md:p-10 md:my-32 md:mx-0"
+        >
+          Impressive Experiences That Deliver
+        </div>
       </div>
-      
-    </div>
-  </section>
+    </section>
 
-
-</body>
+    <!-- Feature section -->
+    <section id="feature">
+      <div
+        class="relative container my-32 flex flex-col max-w-6xl mx-auto px-6 text-gray-900 md:flex-row md:px-0"
+      >
+        <img src="images/desktop/image-interactive.jpg" alt="" />
+        <!-- text-container -->
+        <div
+          class="bg-white top-48 pr-0 md:absolute md:right-0 md:py-20 md:pl-20"
+        >
+          <h2
+            class="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase md:text-5xl md:mt-0 md:text-left"
+          >
+            THE LEADER IN INTERACTIVE VR
+          </h2>
+          <p class="max-w-md text-center md:text-left">
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
