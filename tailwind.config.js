@@ -9,10 +9,11 @@ module.exports = {
       xl: '1440px'
     },
     extend: {
-     
+      fontFamily: {
+        sans: ['josefin sans', 'sans-serif'],
+        alata: ['Alata'],
+      }
   },
   plugins: [],
 }
 }
-
-
