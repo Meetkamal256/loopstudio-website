@@ -12,7 +12,10 @@ module.exports = {
       fontFamily: {
         sans: ['josefin sans', 'sans-serif'],
         alata: ['Alata'],
-      }
+      },
+      letterSpacing: {
+        widest: '.3em',
+      },
   },
   plugins: [],
 }
